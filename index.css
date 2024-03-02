@@ -28,6 +28,7 @@ body {
   .banner {
     position: relative;
     height: 40%;
+    z-index: 0;
   }
 
 
@@ -110,4 +111,7 @@ body {
   .button:hover {
     background-color: #2980b9;
     color: #fff;
+  }
+  .scroll{
+    z-index: 4;
   }
